@@ -3,9 +3,11 @@ module CONFIG
   PORT        = 6667
   USER        = 'USERNAME'
   PASSWORD    = 'OAUTHTOKEN'
-  CHANNEL     = '#sing_sing'
   
-  LOGFILE     = 'bot.log' 
-  DEBUG       = true
+  LOGFILE     = './logs/%s.log' 
+  DEBUG       = false
   VERBOSE     = true
+  MESSAGEDELAY = 2
+  MESSAGEMAXLENGTH = 700
+  MESSAGEDELIMITER = " | "
 end
